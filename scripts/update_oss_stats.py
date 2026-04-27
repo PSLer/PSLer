@@ -95,7 +95,12 @@ text = README.read_text(encoding="utf-8")
 start_marker = "<!-- OSS-STATS:START -->"
 end_marker = "<!-- OSS-STATS:END -->"
 
-start = text.index(start_marker)
-end = text.index(end_marker) + len(end_marker)
+if start_marker in text and end_marker in text:
+    start = text.index(start_marker)
+    end = text.index(end_marker) + len(end_marker)
+    new_text = text[:start] + block + text[end:]
+else:
+    # 如果找不到，就直接 append（防止报错）
+    new_text = text + "\n\n" + block
 
-README.write_text(text[:start] + block + text[end:], encoding="utf-8")
+README.write_text(new_text, encoding="utf-8")
