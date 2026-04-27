@@ -62,7 +62,12 @@ if not history or history[-1]["date"] != today:
 
 HISTORY.write_text(json.dumps(history, indent=2), encoding="utf-8")
 
-annual_estimate = current["total_14d_unique_clones"] * 26
+tracking_since = history[0]["date"]
+cumulative_usage_events = sum(
+    item.get("total_14d_unique_clones", 0) for item in history
+)
+
+annual_usage_events = current["total_14d_unique_clones"] * 26
 
 repo_lines = "\n".join(
     f"- `{repo}`: {stats['unique_clones']} unique clones / 14 days"
@@ -70,10 +75,11 @@ repo_lines = "\n".join(
 )
 
 block = f"""<!-- OSS-STATS:START -->
-Across my open-source research tools:
+### Open-source tool usage
 
 - **Unique clones, latest 14-day GitHub traffic window:** {current["total_14d_unique_clones"]}+
-- **Estimated annual unique clones:** ~{annual_estimate}
+- **Estimated annual usage events:** ~{annual_usage_events}
+- **Cumulative usage events since {tracking_since}:** {cumulative_usage_events}+
 - **Tracked repositories:** {len(REPOS)}
 - **Last updated:** {today}
 
@@ -81,7 +87,7 @@ Repository breakdown:
 
 {repo_lines}
 
-These tools support structural optimization, stress tensor visualization, and lightweight computational mechanics workflows.
+_Note: GitHub traffic data is available as a rolling 14-day window. “Usage events” are estimated from unique clone counts and are not equivalent to globally deduplicated users._
 <!-- OSS-STATS:END -->"""
 
 text = README.read_text(encoding="utf-8")
