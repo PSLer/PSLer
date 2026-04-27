@@ -8,8 +8,12 @@ USERNAME = "PSLer"
 
 REPOS = [
     "3D-TSV",
-    # "MiniFEM",
-    # "你的其他仓库名",
+    "TOP3D_XL",
+    "SGLDBench",
+    "PSLshell",
+    "Infill_plus",
+    "TopRank3",
+    "MiniFEM",
 ]
 
 README = Path("README.md")
