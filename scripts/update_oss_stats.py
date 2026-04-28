@@ -79,7 +79,6 @@ block = f"""<!-- OSS-STATS:START -->
 
 - **Unique clones, latest 14-day GitHub traffic window:** {current["total_14d_unique_clones"]}+
 - **Estimated annual usage events:** ~{annual_usage_events}
-- **Cumulative usage events since {tracking_since}:** {cumulative_usage_events}+
 - **Tracked repositories:** {len(REPOS)}
 - **Last updated:** {today}
 
