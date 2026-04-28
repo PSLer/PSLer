@@ -1,6 +1,6 @@
-# Hi, Welcome to visit PSLer 👋
+# Welcome 👋
 
-I work on structural optimization and stress tensor visualization.
+I work on problems spanning topology optimization, stress tensor visualization, geometric modeling, and manufacturing-aware design. The tools shared here are to support these workflows.
 
 ---
 
