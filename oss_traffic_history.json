@@ -138,5 +138,40 @@
     },
     "total_14d_clones": 185,
     "total_14d_unique_clones": 108
+  },
+  {
+    "date": "2026-05-18",
+    "repos": {
+      "3D-TSV": {
+        "clones": 7,
+        "unique_clones": 5
+      },
+      "TOP3D_XL": {
+        "clones": 8,
+        "unique_clones": 8
+      },
+      "SGLDBench": {
+        "clones": 25,
+        "unique_clones": 6
+      },
+      "PSLshell": {
+        "clones": 5,
+        "unique_clones": 5
+      },
+      "Infill_plus": {
+        "clones": 4,
+        "unique_clones": 4
+      },
+      "TopRank3": {
+        "clones": 1,
+        "unique_clones": 1
+      },
+      "MiniFEM": {
+        "clones": 2,
+        "unique_clones": 2
+      }
+    },
+    "total_14d_clones": 52,
+    "total_14d_unique_clones": 31
   }
 ]
