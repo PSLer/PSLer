@@ -9,18 +9,18 @@ I work on problems spanning topology optimization, stress tensor visualization, 
 <!-- OSS-STATS:START -->
 ### Open-source tool usage
 
-- **Unique clones, latest 14-day GitHub traffic window:** 56+
-- **Estimated annual usage events:** ~1456
+- **Unique clones, latest 14-day GitHub traffic window:** 47+
+- **Estimated annual usage events:** ~1222
 - **Tracked repositories:** 7
-- **Last updated:** 2026-06-22
+- **Last updated:** 2026-06-29
 
 Repository breakdown:
 
 - `3D-TSV`: 8 unique clones / 14 days
-- `TOP3D_XL`: 11 unique clones / 14 days
-- `SGLDBench`: 7 unique clones / 14 days
-- `PSLshell`: 8 unique clones / 14 days
-- `Infill_plus`: 10 unique clones / 14 days
+- `TOP3D_XL`: 5 unique clones / 14 days
+- `SGLDBench`: 8 unique clones / 14 days
+- `PSLshell`: 7 unique clones / 14 days
+- `Infill_plus`: 7 unique clones / 14 days
 - `TopRank3`: 5 unique clones / 14 days
 - `MiniFEM`: 7 unique clones / 14 days
 
