@@ -9,19 +9,19 @@ I work on problems spanning topology optimization, stress tensor visualization, 
 <!-- OSS-STATS:START -->
 ### Open-source tool usage
 
-- **Unique clones, latest 14-day GitHub traffic window:** 30+
-- **Estimated annual usage events:** ~780
+- **Unique clones, latest 14-day GitHub traffic window:** 34+
+- **Estimated annual usage events:** ~884
 - **Tracked repositories:** 7
-- **Last updated:** 2026-08-10
+- **Last updated:** 2026-08-17
 
 Repository breakdown:
 
-- `3D-TSV`: 8 unique clones / 14 days
+- `3D-TSV`: 6 unique clones / 14 days
 - `TOP3D_XL`: 4 unique clones / 14 days
-- `SGLDBench`: 2 unique clones / 14 days
+- `SGLDBench`: 6 unique clones / 14 days
 - `PSLshell`: 2 unique clones / 14 days
-- `Infill_plus`: 6 unique clones / 14 days
-- `TopRank3`: 6 unique clones / 14 days
+- `Infill_plus`: 5 unique clones / 14 days
+- `TopRank3`: 9 unique clones / 14 days
 - `MiniFEM`: 2 unique clones / 14 days
 
 _Note: GitHub traffic data is available as a rolling 14-day window. “Usage events” are estimated from unique clone counts and are not equivalent to globally deduplicated users._
